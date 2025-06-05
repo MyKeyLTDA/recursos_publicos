@@ -1,0 +1,6 @@
+*.png filter=lfs diff=lfs merge=lfs -text
+*/*.png filter=lfs diff=lfs merge=lfs -text
+.*/*.png filter=lfs diff=lfs merge=lfs -text
+**/*.png filter=lfs diff=lfs merge=lfs -text
+imagens/cortes_chave/*.png filter=lfs diff=lfs merge=lfs -text
+imagens/cortes_chave/* filter=lfs diff=lfs merge=lfs -text
